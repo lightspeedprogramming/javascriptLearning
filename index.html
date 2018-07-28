@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+		function myFunction()
+		{
+			document.getElementById('demo').innerHTML = 
+			'Paragraph Changed';
+		}
+	</script>
+<body>
+	<!-- 
+		1. getElementById() is used to find an "Html" element by the id
+		2. innerHTML is used to change the content of that html element
+	
+	<p id="demo">Javascript can change HTML elements</p>
+	<button onclick="getElementById('demo').innerHTML = 'Hello Javascript!' ">Click Me!</button>
+	
+	
+
+	 <p>Javascript can change html element attribute values.</p>
+
+	 <button
+		onclick="document.getElementById('myImage').src='images/captain america.jpg'">
+	 	captain America
+	 </button>
+
+	 <img id="myImage" src="images/3.jpg" width="200px" height="200px">
+
+	 <button
+	 	onclick="document.getElementById('myImage').src='images/deadshot.jpg' ">
+	 	Deadshot image		
+	 </button>
+
+	  
+
+	  <p id="demo">javascript can change html styles of an element.</p>
+
+	  <button onclick="getElementById('demo').style.fontSize='30px'">Click Me!</button>
+
+	  
+
+	  <p id="demo"> Javscript can hode html elements</p>
+
+	  <button
+	  	onclick="getElementById('demo').style.display='none'">
+	  		Hide!
+	  </button>
+
+	  <button
+	  	onclick="getElementById('demo').style.display='block'">
+	  	Display
+	  </button>
+
+	  
+
+	  <p id="demo"></p>
+	  <script type="text/javascript">
+	  	document.getElementById('demo').innerHTML = 'Javascript code';
+	  </script>
+
+	
+
+	  <p id="demo">A Paragraph</p>
+
+	  <button onclick="myFunction()">click Me</button>
+
+
+		external script example
+	 <script src="js/script.js"></script>
+
+	 
+
+	 <script>
+	 	document.write(5+6);
+	 </script>
+
+	 
+	 <script>
+	 	window.alert(5 + 6);
+	 </script>
+
+	 <script>
+	 	console.log(50 + 6);
+	 </script>
+
+	 
+	 <script>
+	 	var a , b, c;
+	 	a = 5;
+	 	b = 6;
+	 	c = a + b;
+
+	 	//document.write(c);
+	 	//window.alert(c);
+	 	console.log(c);
+
+	 </script>
+	 
+
+	 <p id="demo">what is javascript :</p>
+	 <p id="demo2">Framework of javascript</p>
+	 <button onclick="my()"></button>
+	 <script>
+	 	function my()
+	 	{
+	 		document.getElementById('demo').innerHTML = 'JAvascript is awesome';
+	 		document.getElementById('demo2').innerHTML = 'Jquery is a javascript framework';
+	 	}
+	 </script>
+
+	
+	 <p id = 'demo'></p>
+	 <script>
+	 	var car = "volvo", bike = "Ri5", cycle = "Atlas";
+	 	document.getElementById("demo").innerHTML = car;
+	 	document.getElementById("demo1").innerHTML = bike;
+	 	document.getElementById("demo2").innerHTML = cycle;
+	 </script>
+
+	  
+	  <h1>The %= operator</h1>
+	  <p id = "demo"></p>
+	  <script>
+	  	var num = 5;
+	  	num %= 10;
+	  	document.getElementById("demo").innerHTML = num;
+	  </script>
+
+	  <h1>The += operator</h1>
+	  <p id = "add"></p>
+	  <script>
+	  	var num = 10;
+	  	/*
+	  		num = num + 10;
+	  	*/
+	  	num += 10;
+
+	  	document.getElementById('add').innerHTML = num;
+	  </script>
+
+	  <h1>The -= operator</h1>
+	  <p id = "sub"></p>
+	  <script>
+	  	var num = 123;
+	  	var num2 = 10;
+	  	/*
+	  		num = num + 10;
+	  	*/
+	  	//num -= 10;
+	  	num -= num2;
+
+	  	document.getElementById('sub').innerHTML = num;
+	  </script>
+
+	 
+
+	  <script type="text/javascript">
+	  	var length = 10;
+	  	var name = "radhika";
+	  	var obj = 
+	  	{
+	  		firstName	: "john",
+	  		lastName	: "doe"
+	  	};
+	  </script>
+	
+		 -->
+		 <script type="text/javascript">
+		 	/*
+		 	var x = 16 + "Volvo";
+		 	document.write(x);
+
+		 	var y = "volvo" + 16;
+		 	document.write(y);
+			
+		 	var z = 16 + 4 + "volvo";
+		 	document.write(z);
+			
+		 	var k = "volvo" + 16 + 4;
+		 	document.write(k);
+			
+
+			var arr = ["sahib","Biwi","Aur","Gangster"];
+			for (var i = arr.length - 1; i >= 0; i--) {
+				document.write(arr[i]);
+			}
+
+			
+
+			var person = {firstname:"John",lastName:"doe",age:34};
+
+			document.write(person.firstname + " is "+person.age+" years old");
+			*/
+			
+			document.write(
+				typeof "ram" + "<br>"+
+				typeof true + "<br>"+
+				typeof 10 + "<br>");
+		</script>
+
+
+
+
+
+</head>
+</body>
+</html>
